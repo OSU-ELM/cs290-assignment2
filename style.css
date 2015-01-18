@@ -1,0 +1,72 @@
+dl > dl:hover{
+  background:purple;
+}
+
+table{
+ border = 1;
+}
+
+/*n-th child (even/odd) syntax from http://www.w3.org/Style/Examples/007/evenodd.en.html */
+tbody tr:nth-child(even)  { 
+  background-color: #99FF66;
+}
+
+tbody tr:nth-child(odd)  { 
+  background-color: #99CCFF;
+}
+
+/*font code taken from http://www.w3.org/TR/CSS21/fonts.html#propdef-font-weight */
+tbody  th{
+  font-style: italic;
+  font-weight: normal;
+}
+
+tbody   td:nth-child(2)  {
+  color: red;
+  border-color: black; 
+}
+
+tbody   td:nth-child(3)  {
+  color: blue;
+  border-color: black;
+}
+
+tfoot > td:nth-child(1){
+  column-span: 2;
+}
+
+tfoot td:nth-child(2){
+  column-span: 4;
+}
+
+/* position syntax from http://stackoverflow.com/questions/13867717/how-to-make-divs-percentage-width-relative-to-parent-div-and-not-viewport */
+.outer-content {
+  margin-top:20px;
+  margin-bottom:20px;
+  padding-top:2em;
+  padding-left:6em;
+  padding-bottom:2em;
+  width: 75%;
+  background-color:pink;
+  float:left;
+  position: relative;
+}
+
+.inner-content {
+  position:absolute;
+  width: 75%;
+  background-color:blue;
+  color: white;
+  text-align:center;
+  margin-top: -10px;
+  margin-bottom:30px;
+}
+
+/*h2 used to create whitespace on page*/
+h2 {
+  padding-bottom:100px;
+}
+
+p img {
+  float: left;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+	<LINK href="style.css" rel="stylesheet"  />
+  </head>
+  <body>
+  <section name = "my_table">
+    <!-- Table syntax is borrowed from week 1 lecture 9 -->
+    <table border=1>
+	<caption> Handy Bar-tending Guide</caption>
+	  <thead>
+	     <th> <th> Highball <th> Sour <th> Tiki <th> Iconic <th> Other
+	  </thead>
+	  <tbody>
+		<tr> <th> Whiskey </th> <td> Ward 8 <td> Whiskey sour <td> Port Light <td> Manhattan  <td> Rob Roy </tr>
+
+		<tr> <th> Rum </th> <td>Dark&Stormy <td> Daiquiri <td> Zombie <td> Mojito <td> Planter's Punch </tr>
+
+	    <tr> <th> Gin </th> <td>Gin tonic <td> Aviation <td> Singapore Sling <td> Martini <td> Ramos Gin Fizz  </tr>
+
+	    <tr> <th> Tequila </th> <td> Tequila Sunrise <td> Margarita <td> N/A <td> Margarita <td> El Capitan </tr>
+
+	    <tr> <th>Brandy </th> <td> Horse's Neck <td> Side Car <td> Fog Cutter <td> Side Car <td> Corpse Reviver #1 </tr>
+	  </tbody>
+	  <!-- colspan code: http://www.w3.org/wiki/HTML/Elements/td -->
+	  <tfoot>
+	    <td colspan="2">Foot 1 <td colspan="4">Foot 2
+	  </tfoot>
+	</table> 
+  </section>
+  <section name = "DL_list">
+  <!-- DL list code taken from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl -->
+    <dl>
+	  <dt>Notes:</dt>
+	  
+	  <dl> 
+	      The 'sour' family of cocktails is where many base spirits have their most
+	      iconic drink. 
+	  </dl>
+	  
+	  <dl> 
+	      Highball style drinks (where the majority is made up of a mixer) are the most popular. 
+	  </dl>
+	  
+	  <dl> 
+	      The original definition for a cocktail was simply spirits of any kind, sugar, water, and bitters.
+	  </dl>
+	</dl>
+  </section>
+  <section name = "post_version">
+  <!-- Form code borrowed from the HTML guide at Mozilla: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms -->
+    <form name = "post_form" action = "http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method = "post">
+	  <h1>Send Via Post</h1>
+	  <label> Type Text: </label>
+	  <input type = "text" name ="text_input">
+	  <label> Type Number: </label>
+	  <input type = "number" name = "numerical_input">
+	  <label> Type Password: </label>
+	  <input type = "password" name = "password_input"> <br>
+	<!-- Radio form syntax is borrowed from http://www.tizag.com/htmlT/htmlradio.php --> 
+	  <label> Choose a candy (post): </label> <br>
+	  <input type = "radio" name ="radio_input" value ="Snickers"> Snickers <br>
+	  <input type = "radio" name ="radio_input" value ="Skittles"> Skittles <br>
+	  <input type = "radio" name = "radio_input" value ="Mentos"> Mentos <br>
+	  <input type="submit">
+	</form>	
+  </section>
+  <section name = "get_version">
+  <!-- Form code borrowed from the HTML guide at Mozilla: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms -->
+    <form name = "get_form" action = "http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method = "get">
+	  <h1>Send Via Get</h1>
+	  <label> Type Text: </label>
+	  <input type = "text" name ="text_input">
+	  <label> Type Number: </label>
+	  <input type = "number" name = "numerical_input">
+	  <label> Type Password: </label>
+	  <input type = "password" name = "password_input"> <br>
+	<!-- Radio form syntax is borrowed from http://www.tizag.com/htmlT/htmlradio.php --> 
+	  <label> Choose a candy (post): </label> <br>
+	  <input type = "radio" name ="radio_input" value ="Snickers"> Snickers <br>
+	  <input type = "radio" name ="radio_input" value ="Skittles"> Skittles <br>
+	  <input type = "radio" name = "radio_input" value ="Mentos"> Mentos <br>
+	  <input type="submit">
+	</form>	
+  </section> <br> <br>
+  <div class = "outer-content">
+    <div class = "inner-content"> The inner content! </div> <br>
+  </div>
+  <!--h2 used below to create space from prior div elements on page-->
+  <h2>
+  </h2>
+  <!-- Information and picture from http://en.wikipedia.org/wiki/Ichthyosaur -->
+  <p>
+    <img src = "Ich.jpg" width = “100” height = “125”>
+	From Wikipedia: Ichthyosaurs (Greek for "fish lizard") were large marine reptiles. Ichthyosaurs belong to the order known as Ichthyosauria or 
+	Ichthyopterygia ('fish flippers').Ichthyosaurs thrived during much of the Mesozoic era; based on fossil evidence, they first appeared approximately 
+	250 million years ago and at least one species survived until about ninety million years ago into the Late Cretaceous.
+  </p>
+
+  <p>
+    Ichthyosaur species varied from one to over sixteen metres in length. Ichthyosaurs resembled both modern fish and dolphins. Their limbs had been 
+	fully transformed into flippers, which sometimes contained a very large number of digits and phalanges. At least some species possessed a dorsal fin. 
+	Their heads were pointed, the jaws often equipped with conical teeth to catch smaller prey. Some species had larger bladed teeth to attack large animals. 
+	The eyes were very large, probably for deep diving. The neck was short and later species had a rather stiff trunk. These also had a more vertical tail fin 
+	used for a powerful propulsive stroke. The vertebral column, made of simplified disc-like vertebrae, continued into the lower lobe of the tail fin. 
+	Ichthyosaurs were air-breathing, bore live young, and were probably warm-blooded.
+  </p>
+  </body>
+ </html>
