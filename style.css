@@ -3,8 +3,10 @@ dt:hover + dd{
   background:purple;
 }
 
-table{
- border = 1;
+table, td, th, tr, tfoot{
+ border:1px;
+ border-style:solid;
+ border-spacing: 0em;
 }
 
 /*n-th child (even/odd) syntax from http://www.w3.org/Style/Examples/007/evenodd.en.html */
