@@ -68,3 +68,7 @@ tfoot td:nth-child(2){
 p img {
   float: left;
 }
+
+h2 {
+  padding-top:5em;
+}
