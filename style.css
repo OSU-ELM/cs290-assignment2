@@ -1,4 +1,5 @@
-dl > dl:hover{
+/* hovering help from http://stackoverflow.com/questions/6867257/is-there-any-way-to-hover-over-one-element-and-affect-a-different-element */
+dt:hover + dd{
   background:purple;
 }
 
@@ -60,11 +61,6 @@ tfoot td:nth-child(2){
   text-align:center;
   margin-top: -10px;
   margin-bottom:30px;
-}
-
-/*h2 used to create whitespace on page*/
-h2 {
-  padding-bottom:100px;
 }
 
 p img {
